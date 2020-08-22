@@ -1,0 +1,65 @@
+.first-container{
+    display:flex;
+    justify-content: center;
+    width:inherit;
+    height:50vh;
+    background-image: url('./../../images/food-images/food-image1.jpg');    
+}
+.first-container-content-container{
+    width:35%;
+    text-align:center;
+    color:white;
+    font-size:20px;
+    font-family: cursive;
+    font-weight:bolder;
+
+}
+.second-container{
+    width:inherit;
+    height:30vh;
+    background-image: url('./../../images/food-images/food-image2.jpg');
+}
+.menu-container{
+    width:inherit;
+    height:50vh;
+    display:flex;
+}
+.menu-container > fieldset {
+    width:20%;
+}
+.menu-container > fieldset > label,legend {
+    font-size:40px;
+}
+.menu-legend{
+    font-size:60px;
+    width:inherit;    
+}
+.order{
+    margin-top: 25px;
+    height: 3vh;
+    width:15%;
+}
+.log-in-container{
+    background-color: white;
+    width: 30vw;
+    height:50vh;
+    z-index:100;
+    position:relative;
+    top:35vh;
+    left:35vw;
+    display:flex;
+    justify-content: center;
+    border-radius: 8px;
+    display:none;
+}
+.log-in-container .log-in-fieldset{
+    
+    padding-top:3vh;
+    width:65%;  
+    text-align:center;  
+}
+.log-in-container .log-in-fieldset input{
+    width: 65%;
+    height:5vh;
+    border-radius: 8px;
+}

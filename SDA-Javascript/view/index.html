@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="SDA JavaScript html css">
+        <meta name="keywords" content="HTML, CSS, JavaScript">     
+        <meta name="author" content="Thomas Zangari">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" type="text/css"  href='./../css/base_page_setup.css'/> 
+        <link rel="stylesheet" type="text/css" href='./../css/index/nav-bar.css' />
+        <link rel="stylesheet" type="text/css" href='./../css/index/index.css' />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+        <script src='../js/index.js' defer ></script>
+    </head>
+    <body>        
+        <header>
+            <div class="menu_container">                              
+                <img src="./../images/logo/logo.jpg"  class="logo" />
+                <div class="menu_item">
+                    <a href='./sign-up-page.html'><text class="login-link"><u>Sign up!</u></text></a>
+                    <nav>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#">Home&nbsp;<i class="fa fa-caret-down"></i>                                             
+                                <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                                </div></a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class='center'>
+           <div class='first-container'>
+               <div class="first-container-content-container">
+                   <p class='first-container-content'><h2>What is Lorem Ipsum?</h2>
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                   when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                   It has survived not only five centuries, but also the leap into electronic typesetting, 
+                   remaining essentially unchanged. It was popularised in the 1960s with the release of 
+                   Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+                   publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               </div>
+           </div>
+           <div class='second-container'>
+
+           </div> 
+            <fieldset> 
+            <legend class="menu-legend">MENU</legend>        
+                <form class="menu-container"> 
+                    <fieldset class="pizza-container">
+                        <legend>Pizza</legend>
+                        <label>Margerita</label>
+                        <input type="checkbox" name="pizza" value="Margerita" class="menu"><br>
+                        <label>Peperoni</label>      
+                        <input type="checkbox" name="pizza" value="Peperoni" class="menu"><br>
+                        <label>Onion</label>      
+                        <input type="checkbox" name="pizza" value="Onion" class="menu"><br>
+                        <label>Four Season</label>      
+                        <input type="checkbox" name="pizza" value="Four_Season" class="menu"><br>
+                        <label>Capriciosa</label>      
+                        <input type="checkbox" name="pizza" value="Capriciosa" class="menu"><br>                            
+                    </fieldset>
+                    <fieldset class="pasta-container">
+                        <legend>Pasta's</legend>
+                        <label>Porcini</label>
+                        <input type="checkbox" name="pasta" value="Porcini" class="menu"><br>
+                        <label>Bolognese</label>      
+                        <input type="checkbox" name="pasta" value="Bolognese" class="menu"><br>
+                        <label>Pomodoro</label>      
+                        <input type="checkbox" name="pasta" value="Pomodoro" class="menu"><br>
+                        <label>Calamari</label>      
+                        <input type="checkbox" name="pasta" value="Calamari" class="menu"><br>
+                        <label>Profumo di Mare</label>      
+                        <input type="checkbox" name="pasta" value="Profumo_di_Mare" class="menu"><br>                            
+                    </fieldset>
+                    <fieldset class="apetizers-container">
+                        <legend>Apetizers</legend>
+                        <label>Clam's</label>
+                        <input type="checkbox" name="apetizers" value="Clams" class="menu"><br>
+                        <label>Bufallo Wings</label>      
+                        <input type="checkbox" name="apetizers" value="Wings" class="menu"><br>
+                        <label>Dumplings</label>      
+                        <input type="checkbox" name="apetizers" value="Dumplings" class="menu"><br>
+                        <label>Bruscetta</label>      
+                        <input type="checkbox" name="apetizers" value="Bruschetta" class="menu"><br>
+                        <label>French Fries</label>      
+                        <input type="checkbox" name="apetizers" value="French_Fries" class="menu"><br>                            
+                    </fieldset>
+                    <input type="button" name="order" value="Order!" class="order" /> 
+                </form>        
+            </fieldset>
+        </div>        
+        <footer>
+            <p> Copyright<span>&#169;</span> </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+html,body {
+    height: auto;
+    width:auto;
+    background-color:#828d9c;
+}
+header{
+    width:inherit;
+    height: 10%;
+    background-color:black;
+}
+.center{    
+    width:inherit;
+    height:auto;
+    text-align:center; 
+}  
+footer{
+    
+    text-align:center;
+    background-color:blue;
+    color:white;
+    width:inherit;
+    height:5%; 
+} 
+.logo{
+    width:15%;
+    height:5%;
+}
+.menu_container{
+    display:flex;
+    padding:20px;
+    background-color: #1c1808;
+    font-family:cursive;
+    font-weight:300;
+    color:white;
+}

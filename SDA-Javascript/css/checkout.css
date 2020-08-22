@@ -1,0 +1,11 @@
+.center{
+    display:flex;
+    justify-content: center;
+    
+}
+.your-order-fieldset{
+    width:inherit;
+    height:auto;
+    background-color:white;
+    font-size:35px;
+}
